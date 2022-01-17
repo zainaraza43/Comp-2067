@@ -14,9 +14,9 @@ if 0 <= x <= len(L1) - 1: # check if x in range of list
     else: # otherwise
         print(x,"does not occur in L1") # print x doesn't occur
     if x % 2 == 0 and x > 0: # check for even number and greater than 0
-        print("The first",x,"elements of L1:",L1[0:x]) # print first x elements in list
+        print("The first",x,"elements of L1:",L1[:x]) # print first x elements in list
     elif x % 2 == 1 and x > 0: # check for odd number and greater than 0
-        print("The last",x,"elements of L1:",L1[x+1:len(L1)-1]) # print last 5 elements
+        print("The last",x,"elements of L1:",L1[-x:]) # print last 5 elements
     else: # x = 0
         print([]) # print empty list
 else: # not in range
