@@ -7,5 +7,5 @@ z = 14.3015 # assigning z
 
 result = (3**y - (x + y))/((x-y)*z) # algorithm to find the result
 
-print("x=",x,"; y=",y,"; z=",z) # printing x y and z values
+print("x =",x,"; y =",y,"; z =",z) # printing x y and z values
 print("Result =",result) # printing the result
