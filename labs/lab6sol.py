@@ -3,7 +3,7 @@
 
 def multiply_lists(list1, list2) -> list: # takes two lists and returns a list with multiplied products
 
-    print("list1 =",list1,";    list2 =",list2)
+    print("list1 =",list1,";    list2 =",list2) # printing the lists the function is taking in
 
     products = [] # declare empty products list
 
@@ -26,4 +26,6 @@ print("Number of occurrences of 4 is:",prod_list.count(4)) # printing the number
 
 print("72 is in prod_list:",72 in prod_list) # printing if 72 is in prod_list
 
-print(prod_list) # printing the sorted list ???  
+prod_list.sort() # sorting prod_list in ascending order
+
+print(prod_list) # printing the sorted list
